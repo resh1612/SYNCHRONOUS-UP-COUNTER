@@ -43,31 +43,33 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 Developed by: RESHMITHAA B  RegisterNumber:24900030
 
 ```
-module exp11(out,clk,rstn);
-input clk,rstn;
-output reg [3:0]out;
-always @ (posedge clk)
-begin 
-	if(!rstn)
-		out<=0;
-	else
-		out <= out+1;
-end
-endmodule
+ module exp11(out,clk,rstn);
+ input clk,rstn;
+ output reg [3:0]out;
+ always @ (posedge clk)
+ begin
+ if(!rstn)
+  out<=0;
+ else 
+  out <= out+1;
+ end
+ endmodule
 ```
 
 **RTL LOGIC UP COUNTER**
 
-![image](https://github.com/user-attachments/assets/f3690168-4a73-46f0-96a0-554bfa3aee41)
+![image](https://github.com/user-attachments/assets/a6f03ac2-7b59-463d-9029-93550e558235)
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
-![image](https://github.com/user-attachments/assets/188e495d-bd72-4892-9935-76bd77128514)
+![image](https://github.com/user-attachments/assets/0935c95b-06db-4066-acc4-e12543aee4b7)
+
 
 
 **TRUTH TABLE**
 
-![image](https://github.com/user-attachments/assets/d799d00e-a10a-408b-a5b6-e9eb39cad026)
+![image](https://github.com/user-attachments/assets/6b1d9e13-0b35-49ad-99bb-59111d6f617c)
 
 
 **RESULTS**
